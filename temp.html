@@ -1,0 +1,48 @@
+<html>
+    <head>
+<title> Temperature converter</title>
+<link rel="stylesheet" href="stylet.css">
+
+    </head>
+    <body>
+        
+        <h1 class="main-head">Temperature converter</h1>
+     <section class="abc">
+        <div  class=" box" >
+        <span class="top-head"> Convert Celsius to fahrenheit </span>
+            
+      
+        
+        <div>
+         <span >enter Temparature in Celcius:</span>
+         <input type="text" id="celsius"><span><button class="btn" onclick="convertToFahrenheit()">convert to F</button></span>
+
+         </div>
+         <div>
+         <span  >converted Temparature= </span ><span id="resultCelsius"></span>
+         </div>
+        </div>
+    
+         </section>
+
+         <br>
+         <br>
+<section class="abc">
+    <div  >
+    <span class="top-head"> Convert Fahrenheit to Celcius</span>
+    
+
+        <div >
+    <span>Enter Temparature in Fahrenheit :</span>
+    <input type="text" id="fahrenheit"><button  class="btn"type="button" onclick="convertToCelsius()">convert to C</button></span>
+    </div>
+    <div>
+    <span > converted Temparature = </span><span id="resultFahrenheit"></span>
+    </div>
+    </div>
+</section>
+
+<script src="temp.js"></script>
+
+    </body>
+</html>

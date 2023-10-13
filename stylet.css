@@ -1,0 +1,46 @@
+body,html{
+    margin-top: 0;
+    padding: 0;
+    background-color: black;
+}
+  .main-head{
+    margin: 0;
+    text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: italic;
+    padding: 90px;
+    background-image: url("thermometer-temperature-degrees-celsius-scale.jpg");
+    background-size:cover;
+  
+ 
+}
+.ans{
+    display: flex;
+   align-items: center;
+}
+.top-head{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom :15px;
+}
+.btn{
+   
+border-color:blue;
+border-radius: 30%;
+margin:  0 ;
+padding: 10px;
+cursor: pointer;
+
+}
+.btn:hover{
+    color: rgb(4, 210, 141);
+}
+
+
+
+
+
+   
+   
+
+
